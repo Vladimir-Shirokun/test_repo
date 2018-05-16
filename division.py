@@ -7,8 +7,15 @@ if __name__ == '__main__':
     parser.add_argument('numerator', type=float, help='Numerator')
     parser.add_argument('divisor', type=float, help='Divisor')
     
+    
+    
+    
     args = parser.parse_args()
     if ( args.divisor == 0)
+    
+    
+    ////asdasdasdasdasdasdassssssssssssssssssssssssssssssssssssssssss
+    
         print("Division on Null is incoreect")
     else
         print(args.numerator / args.divisor)
